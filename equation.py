@@ -1,3 +1,8 @@
+# Coeficients must be declared by reading the equation
+# left to right, supposing a decreasing order of degrees
+
+# Only polynomial equations with natural degrees allowed
+
 class Equation():
     def __init__(self, *args):
         self.coeficients = args[:]
